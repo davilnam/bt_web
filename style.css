@@ -1,0 +1,80 @@
+.header{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -8px;
+    position: relative;
+}
+
+.image{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+}
+
+.image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.nav{
+    display: flex;
+}
+
+section {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+}
+
+.number{
+    font-size: 200px;
+    margin: 0;
+}
+
+.vt{
+    font-size: 60px;
+    margin: 25px 0 0 10px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid greenyellow;
+    border-radius: 50%;
+    margin: 25px 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon i{
+    font-size: 20px;
+}
+
+.title{
+    font-size: 30px;
+    text-align: center;
+}
+
+.des{
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons i{
+    font-size: 25px;
+}
